@@ -1,3 +1,21 @@
 .App {
   text-align: center;
 }
+
+
+.film-container {
+  border: 5px solid lightskyblue;
+}
+
+
+.film-list {
+  margin: 10px;
+  border: 5px solid peachpuff;
+}
+
+
+.film {
+  margin: 10px;
+  border: 5px solid plum;
+}
+
