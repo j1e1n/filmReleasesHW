@@ -1,21 +1,31 @@
-.App {
-  text-align: center;
-}
-
-
 .film-container {
-  border: 5px solid lightskyblue;
+  margin: 50px;
+  width: 50%;
+  height: 50%;
+  border: 2px solid black;
 }
 
+.film-container > h3 {
+  margin: 10px;
+}
+
+
+#view-more {
+  font-size: 16pt;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid black;
+  background-color: lightskyblue;
+  color: dodgerblue;
+}
 
 .film-list {
-  margin: 10px;
-  border: 5px solid peachpuff;
+  color: dodgerblue;
 }
 
-
-.film {
-  margin: 10px;
-  border: 5px solid plum;
+a {
+  color: dodgerblue;
+  text-decoration: none;
+  margin: 5px;
 }
-

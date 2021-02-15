@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-const Film = () => {
+const Film = ({name, url}) => {
     return(
         <div className="film">
-            <p>I am a film</p>
+            <a href={url} target="_blank"><li>{name}</li></a>
         </div>
         
     )
